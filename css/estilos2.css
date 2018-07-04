@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto+Condensed');
+
+.containers{
+    border: 1px solid red;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}   
+.card{
+    margin: 3px;   
+    display:inline-block;
+    cursor: pointer;
+    box-shadow: 
+}
+.card-body{
+    line-height: 1.1rem;
+}
+.descripcion{
+    text-align: center;
+    font-family: 'Oswald';
+    margin: 0px;
+    text-transform: uppercase;
+}
+.precio{  
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+.card-footer{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    background:rgb(156, 28, 28);
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}

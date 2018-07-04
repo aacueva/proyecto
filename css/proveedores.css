@@ -1,0 +1,16 @@
+
+#provedor .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#provedor article
+{
+    margin: 15px;
+}
+#provedor img{
+    width 100%;
+    max-width: 180px;
+}
+
